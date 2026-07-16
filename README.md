@@ -19,8 +19,8 @@ mtDNA DeletionCaller is designed to identify potential deletions in mitochondria
 - Required R packages:
   
   - data.table (for efficient data loading with fread)
-  - S4 object system support (included in base R)
-  - GenomicRanges and SummarizedExperiment (for handling the data structure)
+  - Matrix (for sparse coverage/allele matrix operations)
+  - S4 object system support (included in base R) — the mgatk RDS is a SummarizedExperiment-style object accessed directly via its slots, so no additional Bioconductor packages need to be attached
 
 ## Input Files
 
